@@ -23,7 +23,7 @@ main{
     color: #0a3871;
     margin-top: 20px;
     text-transform: lowercase;
-}
+    }
 
 ::placeholder{color: #0A3871;}
     .text-area:focus {
