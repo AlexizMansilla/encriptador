@@ -2,7 +2,7 @@
 
 - Estado del proyecto: En contrución.
 
-- para ejucutar el sistema encriptador y desencripatdor, debes poner:
+- para ejucutar el sistema encriptador y desencripatdor, Usar:
 
     `La letra "e" es convertida para "enter"`
     `La letra "i" es convertida para "imes"`
