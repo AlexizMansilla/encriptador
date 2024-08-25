@@ -79,8 +79,11 @@ function copiarTexto() {
     const mensaje = document.querySelector("#output-text");
     const botonCopiar = document.querySelector(".copiar");
 
-    mensaje.select();
+    if(botonCopiar.classList.contains("hidden")) return;
+
+    mensaje.select();    
     document.execCommand("copy");
+
 
     // Ocultar el botón "Copiar" después de copiar el texto
     botonCopiar.classList.add("hidden");
